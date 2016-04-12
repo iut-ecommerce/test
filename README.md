@@ -1,0 +1,1 @@
+A test project to learn Django basics.
