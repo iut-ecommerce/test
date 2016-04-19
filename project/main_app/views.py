@@ -8,3 +8,10 @@ def test(request):
         if text == 'test':
             return render_to_response('test_post.html')
     return render_to_response('test.html', RequestContext(request))
+
+def index(request):
+    return render_to_response('index.html', RequestContext(request))
+
+
+def services(request):
+    return render_to_response('test.html', RequestContext(request))
